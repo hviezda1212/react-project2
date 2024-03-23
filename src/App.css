@@ -1,7 +1,7 @@
 body{
   background-repeat: no-repeat;
     background-size: cover;
-  background-image: url('https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png');
+  background-image: url('https://img.freepik.com/free-vector/cloud-background-pastel-paper-cut-design-vector_53876-135919.jpg');
 }
 .weather-card{
   background-color: rgba(52,52,52,.7);
@@ -23,7 +23,8 @@ body{
 .menu-container{
   display: flex;
     justify-content: center;
-    background-color: #000;
+    border: 2px solid #fff;
+    background-color: rgba(52,52,52,.7);
     border-radius: 60px;
     max-width: 700px;
     width:100%;
@@ -36,5 +37,39 @@ body{
 }
 
 .menu-container Button:hover{
-  background-color: #ffc107;
+  background-color: white;
+}
+
+.btn-warning {
+  --bs-btn-color: #000;
+    --bs-btn-bg: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 217, 164, 6;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: white;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: white;
+    --bs-btn-disabled-border-color: white;
+}
+
+.btn-outline-warning {
+  --bs-btn-color: white;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: white;
+  --bs-btn-focus-shadow-rgb: 255, 193, 7;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: white;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: white;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: white;
+  --bs-gradient: none;
 }

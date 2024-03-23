@@ -5,12 +5,9 @@ import PublicNavbar from "./components/PublicNavbar";
 import { Col, Container, Row } from "react-bootstrap";
 import SideMenu from "./components/SideMenu";
 import WeatherInfo from "./components/WeatherInfo";
-// import { ClipLoader } from "react-spinners";
 import { cities } from "./config";
 
-const API_KEY = "24ee19012620ceecb014d7640b1874a9";
-
-// <ClipLoader color="#f86c6b" size={150} loading={true} />
+const API_KEY = "8be7c88e8b2b97ab66e53b1c050b7de4";
 
 const App = () => {
   const [geoLocation, setGeoLocation] = useState({
