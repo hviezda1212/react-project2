@@ -74,7 +74,7 @@ const App = () => {
       <Container className="vh-100">
         {loading ? (
           <div className="w-100 vh-100 d-flex justify-content-center align-items-center">
-            <ClipLoader color="#f86c6b" size={150} loading={loading} />
+            <ClipLoader color="white" size={150} loading={loading} />
           </div>
         ) : !apiError ? (
           <div class="main-container">
