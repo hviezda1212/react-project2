@@ -4,7 +4,7 @@ body{
   background-image: url('https://img.freepik.com/free-vector/cloud-background-pastel-paper-cut-design-vector_53876-135919.jpg');
 }
 .weather-card{
-  background-color: rgba(52,52,52,.7);
+  background-color: rgba(52,52,52,.5);
     padding: 50px;
     border: 2px solid #fff;
     border-radius: 20px;
